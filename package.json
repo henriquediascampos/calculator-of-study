@@ -1,0 +1,22 @@
+{
+  "name": "calculator-of-study",
+  "version": "1.0.0",
+  "description": "ddfsdf sd fsdf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquediascampos/calculator-of-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquediascampos/calculator-of-study/issues"
+  },
+  "homepage": "https://github.com/henriquediascampos/calculator-of-study#readme",
+  "dependencies": {}
+}

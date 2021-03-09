@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+    <div class="calculadora flex column">
+        <input type="text" id="entrada" placeholder="...calculate">
+        <div class="grupo-btn-1 flex row">
+            <div class="flex1 column">
+                <div class="flex1 row">
+                    <button onclick="enterNumer(this)" class="btn-1">1</button>
+                    <button onclick="enterNumer(this)" class="btn-1">2</button>
+                    <button onclick="enterNumer(this)" class="btn-1">3</button>
+                    <button onclick="enterNumer(this)" class="btn-1">+</button>
+                </div>
+                <div class="flex1 row">
+                    <button onclick="enterNumer(this)" class="btn-1">4</button>
+                    <button onclick="enterNumer(this)" class="btn-1">5</button>
+                    <button onclick="enterNumer(this)" class="btn-1">6</button>
+                    <button onclick="enterNumer(this)" class="btn-1">-</button>
+                </div>
+                <div class="flex1 row">
+                    <button onclick="enterNumer(this)" class="btn-1">7</button>
+                    <button onclick="enterNumer(this)" class="btn-1">8</button>
+                    <button onclick="enterNumer(this)" class="btn-1">9</button>
+                    <button onclick="enterNumer(this)" class="btn-1">*</button>
+                </div>
+                <div class="flex1 row">
+                    <button onclick="enterNumer(this)" class="btn-1">.</button>
+                    <button onclick="enterNumer(this)" class="btn-1">0</button>
+                    <button onclick="enterNumer(this)" class="btn-1">,</button>
+                    <button onclick="enterNumer(this)" class="btn-1">/</button>
+                </div>
+            </div>
+            <div class="flex grupo-btn-2 column ">
+                <div class="flex div-clean">
+                    <button onclick="clean()">C</button>
+                </div>
+                <div class="flex3">
+                    <button id="igual" onclick="result()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="calculadora.js"></script>
+
+</html>

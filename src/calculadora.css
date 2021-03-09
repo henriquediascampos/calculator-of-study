@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    flex: 1
+}
+
+.flex2 {
+    display: flex;
+    flex: 2
+}
+
+.flex3 {
+    display: flex;
+    flex: 3
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.row > *:not(:last-child) {
+    margin-right: 5px;
+}
+
+.column > *:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.calculadora {
+    background-color: rgb(163, 206, 221);
+    width: 80vh;
+    height: 80vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+.calculadora > * {
+    width: 100%;
+}
+
+.grupo-btn-1 {
+    display: flex;
+    flex: 1
+}
+
+
+button {
+    font-size: 48pt;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+button:hover {
+   background-color: rgb(148, 148, 148);
+   color: aliceblue;
+}
+
+#entrada {
+    font-size: 48pt;
+    border-radius: 5px;
+    padding: 8px 15px;
+    text-align: end;
+}
+
+#entrada:placeholder-shown {
+    font-style: italic;
+    /* text-align: end; */
+}
+
+.grupo-btn-2 {
+    flex: 0.3;
+}
+
+.div-clean {
+    flex: .97;
+}
