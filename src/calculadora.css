@@ -76,6 +76,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     flex: 1;
+    background-color: #74acdc;
 }
 
 button:hover {
